@@ -9,6 +9,37 @@
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <script src="Scripts/jquery-1.10.2.min.js"></script>
     <style type="text/css">
+        .custom-input-file {
+            float:left;
+            overflow:hidden;
+            position:relative;
+            cursor:pointer;
+            width:200px;
+            border:1px solid #ccc;
+            border-radius:5px;
+            text-align:center;
+            font-family:Arial;
+            font-size:12px;
+        }
+    .custom-input-file:hover {
+        background-color:#ccc;
+    }
+    .custom-input-file input[type=file] {
+        margin:0;
+        padding:0;
+        outline:0;
+        font-size:10000px;
+        border:10000px solid transparent;
+        opacity: 0;
+        filter:alpha(opacity=0);
+        position:absolute;
+        right:-1000px;
+        top:-1000px;
+        cursor:pointer;
+    }
+    .files {
+        font-size:9px;
+    }
         .auto-style1 {
             text-align: center;
         }
@@ -58,7 +89,7 @@
                         <option>5</option>
                     </select>
                 </div>
-                <label class="col-md-3 control-label">
+                <label class="col-md-1 control-label">
                     Nombre
                 </label>
                 <div class="col-md-3">
@@ -69,13 +100,13 @@
                 <label class="col-md-3 control-label">
                     Archivo o Contrato  
                 </label>
-                <label class="col.md-3 custom-input-file form-control">
+                <label class="col-md-3 custom-input-file">
                     <input type="file" name="images"/>
-                        Seleccionar archivo
+                    Seleccionar Archivo
                 </label>
-                <div class="col-md-3">
-                    <input type="submit" class="button-danger" value="Enviar"/>
-                </div>
+                <label class="col-md-3">
+                    <input type="submit" class="button-danger" value="Subir"/>
+                </label>
             </div>
             <div class="form-group">
                 <label class="col-md-3 control-label">

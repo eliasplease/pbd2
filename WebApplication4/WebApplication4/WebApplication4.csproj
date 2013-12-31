@@ -168,6 +168,8 @@
     <Content Include="ModificarUsuario.aspx" />
     <Content Include="IngresarServidorLógico.aspx" />
     <Content Include="IngresarNuevoContrato.aspx" />
+    <Content Include="IngresarServidor.aspx" />
+    <Content Include="RenovarContrato.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -350,6 +352,20 @@
     </Compile>
     <Compile Include="IngresarNuevoContrato.aspx.designer.cs">
       <DependentUpon>IngresarNuevoContrato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarServidor.aspx.cs">
+      <DependentUpon>IngresarServidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresarServidor.aspx.designer.cs">
+      <DependentUpon>IngresarServidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RenovarContrato.aspx.cs">
+      <DependentUpon>RenovarContrato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RenovarContrato.aspx.designer.cs">
+      <DependentUpon>RenovarContrato.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
