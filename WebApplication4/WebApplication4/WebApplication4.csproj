@@ -170,6 +170,11 @@
     <Content Include="IngresarNuevoContrato.aspx" />
     <Content Include="IngresarServidor.aspx" />
     <Content Include="RenovarContrato.aspx" />
+    <Content Include="NuevoProveedor.aspx" />
+    <Content Include="ModificarInformaciónProveedor.aspx" />
+    <Content Include="DesvincularProveedor.aspx" />
+    <Content Include="AgregarNuevaUbicación.aspx" />
+    <Content Include="BuscarSevidorFísico.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -366,6 +371,41 @@
     </Compile>
     <Compile Include="RenovarContrato.aspx.designer.cs">
       <DependentUpon>RenovarContrato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoProveedor.aspx.cs">
+      <DependentUpon>NuevoProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NuevoProveedor.aspx.designer.cs">
+      <DependentUpon>NuevoProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarInformaciónProveedor.aspx.cs">
+      <DependentUpon>ModificarInformaciónProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarInformaciónProveedor.aspx.designer.cs">
+      <DependentUpon>ModificarInformaciónProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DesvincularProveedor.aspx.cs">
+      <DependentUpon>DesvincularProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesvincularProveedor.aspx.designer.cs">
+      <DependentUpon>DesvincularProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarNuevaUbicación.aspx.cs">
+      <DependentUpon>AgregarNuevaUbicación.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarNuevaUbicación.aspx.designer.cs">
+      <DependentUpon>AgregarNuevaUbicación.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarSevidorFísico.aspx.cs">
+      <DependentUpon>BuscarSevidorFísico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuscarSevidorFísico.aspx.designer.cs">
+      <DependentUpon>BuscarSevidorFísico.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

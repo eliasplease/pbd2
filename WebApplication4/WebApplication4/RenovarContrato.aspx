@@ -29,9 +29,6 @@
             top: 20%;
             left: 40%;
         }
-    
-
-
     </style>
 </head>
 <body>
@@ -74,57 +71,93 @@
                 </label>
             </div>
             <div class="form-group">
-                <table border="1" class="scrollContent">
+                <table border="1" class="scrollContent col-md-3 col-md-offset-3">
 
                     <tr>
-                        <th>ISBN</th>
-                        <th>Title</th>
-                        <th>Price</th>
+                        <th>IP Servidor</th>
+                        <th>Nombre</th>
+                        <th>Garantía</th>
                     </tr>
                     <tbody style="height: 300px; overflow-y: auto">
-                    <tr>
-                        <td>3476896</td>
-                        <td>My first HTML</td>
-                        <td>$53</td>
-                    </tr>
-                    <tr>
-                        <td>5869207</td>
-                        <td>My first CSS</td>
-                        <td>$49</td>
-                    </tr>
-                                        <tr>
-                        <td>3476896</td>
-                        <td>My first HTML</td>
-                        <td>$53</td>
-                    </tr>
-                    <tr>
-                        <td>5869207</td>
-                        <td>My first CSS</td>
-                        <td>$49</td>
-                    </tr>
-                                        <tr>
-                        <td>3476896</td>
-                        <td>My first HTML</td>
-                        <td>$53</td>
-                    </tr>
-                    <tr>
-                        <td>5869207</td>
-                        <td>My first CSS</td>
-                        <td>$49</td>
-                    </tr>
-                        </tbody>
+                        <tr>
+                            <td>3476896</td>
+                            <td>My first HTML</td>
+                            <td>$53</td>
+                        </tr>
+                        <tr>
+                            <td>5869207</td>
+                            <td>My first CSS</td>
+                            <td>$49</td>
+                        </tr>
+                        <tr>
+                            <td>3476896</td>
+                            <td>My first HTML</td>
+                            <td>$53</td>
+                        </tr>
+                        <tr>
+                            <td>5869207</td>
+                            <td>My first CSS</td>
+                            <td>$49</td>
+                        </tr>
+                        <tr>
+                            <td>3476896</td>
+                            <td>My first HTML</td>
+                            <td>$53</td>
+                        </tr>
+                        <tr>
+                            <td>5869207</td>
+                            <td>My first CSS</td>
+                            <td>$49</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
-        <div class="form-group">
-            <label class="col-md-3 control-label">
-                <button class="btn btn-danger" type="button">Atrás</button>
-            </label>
-            <label class="col-md-4 col-md-offset-4 control-label">
-                <button class="btn btn-danger" type="button">Ingresar a Bitácora</button>
-            </label>
-        </div>
-        </div>
-        <div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">
+                    Lista de Garantías
+                </label>
+            </div>
+            <div class="form-group">
+                <table border="1" class="scrollContent col-md-3 col-md-offset-3">
+
+                    <tr>
+                        <th>Garantía</th>
+                        <th>Fecha de Expiración</th>
+                    </tr>
+                    <tbody style="height: 300px; overflow-y: auto">
+                        <tr>
+                            <td>3476896</td>
+                            <td>My first HTML</td>
+                        </tr>
+                        <tr>
+                            <td>3476896</td>
+                            <td>My first HTML</td>
+                        </tr>
+                        <tr>
+                            <td>3476896</td>
+                            <td>My first HTML</td>
+                        </tr>
+                        <tr>
+                            <td>3476896</td>
+                            <td>My first HTML</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <label class="col-md-2 col-md-offset-6">
+                    <button class="btn btn-danger" type="button">Detalle Garantía</button>
+                </label>
+                <label class="col-md-2 col-md-offset-6">
+                    <button class="btn btn-danger" type="button">Modificar Garantía</button>
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">
+                    <button class="btn btn-danger" type="button">Atrás</button>
+                </label>
+                <label class="col-md-3 col-md-offset-4 control-label">
+                    <button class="btn btn-danger" type="button">Ingresar Contrato</button>
+                </label>
+            </div>
         </div>
     </form>
 </body>
